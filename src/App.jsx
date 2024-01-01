@@ -1,5 +1,6 @@
 import "./style.scss"
 import Navbar from "./sections/navbar/navbar"
+import Hero from "./sections/hero/hero"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         Click on the Vite and React logos dsadsa dsads fdsdsf asddsa fdsa fddsffds dsadas zaa  dsadsa dsads
       </p>
       <Navbar/>
+      <Hero/>
     </>
   )
 }

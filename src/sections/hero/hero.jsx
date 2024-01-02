@@ -1,5 +1,3 @@
-import "./hero.module.scss";
-
 export default function Hero() {
   return (
     <header className="container p-5 px-lg-5 mt-5 bg-light d-flex justify-content-center align-items-center text-center flex-column rounded">

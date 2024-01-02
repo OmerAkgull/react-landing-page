@@ -1,4 +1,3 @@
-import "./navbar.module.scss";
 import * as bootstrap from 'bootstrap'
 
 

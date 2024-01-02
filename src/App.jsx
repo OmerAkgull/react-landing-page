@@ -4,7 +4,6 @@ import Hero from "./sections/hero/hero";
 import Features from "./sections/features/features";
 
 function App() {
-
   return (
     <>
       <p className="fs-3">
@@ -13,7 +12,7 @@ function App() {
       </p>
       <Navbar />
       <Hero />
-      <Features/>
+      <Features />
     </>
   );
 }

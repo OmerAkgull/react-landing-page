@@ -1,4 +1,5 @@
 import Card from "/Users/User/Desktop/repos/OnlyJS React/react-landing-page/src/components/card/card";
+import IconBox from "../../components/iconbox/iconbox";
 
 export default function Features() {
   const card1 = {
@@ -38,22 +39,28 @@ export default function Features() {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-lg-6 col-xxl-4">
+        <div className="col-lg-6 col-xxl-4 justify-content-center align-items-center d-flex flex-column">
+          <IconBox />
           <Card cardTitle={card1.cardTitle} cardText={card1.cardText} />
         </div>
-        <div className="col-lg-6 col-xxl-4">
+        <div className="col-lg-6 col-xxl-4 justify-content-center align-items-center d-flex flex-column">
+          <IconBox />
           <Card cardTitle={card2.cardTitle} cardText={card2.cardText} />
         </div>
-        <div className="col-lg-6 col-xxl-4">
+        <div className="col-lg-6 col-xxl-4 justify-content-center align-items-center d-flex flex-column">
+          <IconBox />
           <Card cardTitle={card3.cardTitle} cardText={card3.cardText} />
         </div>
-        <div className="col-lg-6 col-xxl-4 mt-5">
+        <div className="col-lg-6 col-xxl-4 mt-5 justify-content-center align-items-center d-flex flex-column">
+          <IconBox />
           <Card cardTitle={card4.cardTitle} cardText={card4.cardText} />
         </div>
-        <div className="col-lg-6 col-xxl-4 mt-5">
+        <div className="col-lg-6 col-xxl-4 mt-5 justify-content-center align-items-center d-flex flex-column">
+          <IconBox />
           <Card cardTitle={card5.cardTitle} cardText={card6.cardText} />
         </div>
-        <div className="col-lg-6 col-xxl-4 mt-5">
+        <div className="col-lg-6 col-xxl-4 mt-5 justify-content-center align-items-center d-flex flex-column">
+          <IconBox />
           <Card cardTitle={card6.cardTitle} cardText={card6.cardText} />
         </div>
       </div>

@@ -3,64 +3,66 @@ import IconBox from "../../components/iconbox/iconbox";
 
 export default function Features() {
   const card1 = {
-    cardTitle: "Fresh new layout",
+    cardTitle: "Product Development",
     cardText:
-      "With Bootstrap 5, we've created a fresh new layout for this template!",
+      "Product you want to develop? You are in the right place. Our expert staff will develop your product with expertise.",
   };
 
   const card2 = {
-    cardTitle: "Free to download",
+    cardTitle: "DevOps Consultancy",
     cardText:
-      "As always, Start Bootstrap has a powerful collectin of free templates.",
+      "We create the development infrastructures to accelerate your company's digital transformation.",
   };
 
   const card3 = {
-    cardTitle: "Jumbotron hero header",
-    cardText: "The heroic part of this template is the jumbotron hero header!",
+    cardTitle: "Mobile Development",
+    cardText:
+      "We develop your mobile application for iOS and Android platforms with React Native and Flutter.",
   };
 
   const card4 = {
-    cardTitle: "Feature boxes",
-    cardText: "We've created some custom feature boxes using Bootstrap icons!",
+    cardTitle: "Web Development",
+    cardText:
+      "We offer mobile-friendly and dynamic websites through technologies such as React.js and Django.",
   };
 
   const card5 = {
-    cardTitle: "Simple clean code",
+    cardTitle: "UI/UX Design",
     cardText:
-      "We keep our dependencies up to date and squash bugs as they come!",
+      "With our UI/UX team, we design user experience-oriented user interfaces for your application.",
   };
 
   const card6 = {
-    cardTitle: "A name you trust",
+    cardTitle: "Maintenance Support",
     cardText:
-      "Start Bootstrap has been the leader in free Bootstrap templates since 2013!",
+      "We offer 24/7 enterprise-level support throughout your project and after delivery.",
   };
 
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-lg-6 col-xxl-4 justify-content-center align-items-center d-flex flex-column">
-          <IconBox />
+        <div className="col-lg-6 col-xxl-4 mt-5 mt-lg-0 justify-content-center align-items-center d-flex flex-column">
+          <IconBox icon={<i className="bi bi-rocket-takeoff-fill text-white fs-2"></i>} />
           <Card cardTitle={card1.cardTitle} cardText={card1.cardText} />
         </div>
-        <div className="col-lg-6 col-xxl-4 justify-content-center align-items-center d-flex flex-column">
-          <IconBox />
+        <div className="col-lg-6 col-xxl-4 mt-5 mt-lg-0 justify-content-center align-items-center d-flex flex-column">
+          <IconBox icon={<i className="bi bi-cloud-download-fill text-white fs-2"></i>} />
           <Card cardTitle={card2.cardTitle} cardText={card2.cardText} />
         </div>
-        <div className="col-lg-6 col-xxl-4 justify-content-center align-items-center d-flex flex-column">
-          <IconBox />
+        <div className="col-lg-6 col-xxl-4 mt-5 mt-lg-0 justify-content-center align-items-center d-flex flex-column">
+          <IconBox icon={<i className="bi bi-phone-fill text-white fs-2"></i>} />
           <Card cardTitle={card3.cardTitle} cardText={card3.cardText} />
         </div>
         <div className="col-lg-6 col-xxl-4 mt-5 justify-content-center align-items-center d-flex flex-column">
-          <IconBox />
+          <IconBox icon={<i className="bi bi-window-fullscreen text-white fs-2"></i>} />
           <Card cardTitle={card4.cardTitle} cardText={card4.cardText} />
         </div>
         <div className="col-lg-6 col-xxl-4 mt-5 justify-content-center align-items-center d-flex flex-column">
-          <IconBox />
+          <IconBox icon={<i className="bi bi-cursor-fill text-white fs-2"></i>} />
           <Card cardTitle={card5.cardTitle} cardText={card6.cardText} />
         </div>
         <div className="col-lg-6 col-xxl-4 mt-5 justify-content-center align-items-center d-flex flex-column">
-          <IconBox />
+          <IconBox icon={<i className="bi bi-gear-fill text-white fs-2"></i>} />
           <Card cardTitle={card6.cardTitle} cardText={card6.cardText} />
         </div>
       </div>
